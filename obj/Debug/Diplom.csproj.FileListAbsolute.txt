@@ -1,0 +1,39 @@
+C:\Users\User\source\repos\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\User\source\repos\Diplom\bin\Debug\Diplom.exe
+C:\Users\User\source\repos\Diplom\bin\Debug\Diplom.pdb
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Diplom\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str1.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\App.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom_MarkupCompile.cache
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom_MarkupCompile.lref
+C:\Users\User\source\repos\Diplom\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str1.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.g.resources
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.exe
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.pdb
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Test1.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Test1.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\App.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str2.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str3.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str4.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Test2.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Test3.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Test4.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str2.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str3.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str4.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Test2.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Test3.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Test4.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str5.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Test5.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str5.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Test5.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Страницы учебных материалов\Str6.g.cs

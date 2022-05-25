@@ -1,0 +1,57 @@
+﻿<Page x:Class="Diplom.Страницы_учебных_материалов.Str"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
+      mc:Ignorable="d" 
+      d:DesignHeight="10000" d:DesignWidth="1000" MaxHeight="3000" MaxWidth="1400" MinWidth="900"
+      Title="Str">
+
+    <Grid Background="DodgerBlue">
+        <TreeView Background="LightSkyBlue" Height="Auto" VerticalAlignment="Top" Margin="15,15,15,0">
+            <TreeViewItem Header="УЧЕБНЫЕ МАТЕРИАЛЫ" FontFamily="Bodoni MT Black" FontSize="16">
+                <TreeViewItem Background="LightSkyBlue" Header="Понятие репозитория проекта, структура проекта">
+                    <Button Background="LightSkyBlue" Name="Tema1" Click="Tema1_Click" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests1" Click="Tests1_Click" Content="Вопросы"/>
+                </TreeViewItem>
+                <TreeViewItem Background="LightSkyBlue" Header="Выбор цели и уровни интеграции программных модулей. Автоматизация бизнес - процессов">
+                    <Button Background="LightSkyBlue" Name="Tema2" Click="Tema2_Click" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests2" Click="Tests2_Click" Content="Вопросы"/>
+                </TreeViewItem>
+                <TreeViewItem Background="LightSkyBlue" Header="Выбор источников и приёмников данных. Стандарты форматирования">
+                    <Button Background="LightSkyBlue" Name="Tema3" Click="Tema3_Click" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests3" Click="Tests3_Click" Content="Вопросы"/>
+                </TreeViewItem>
+                <TreeViewItem Background="LightSkyBlue" Header="Транспортные протоколы">
+                    <Button Background="LightSkyBlue" Name="Tema4" Click="Tema4_Click" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests4" Click="Tests4_Click" Content="Вопросы"/>
+                </TreeViewItem>
+                <TreeViewItem Background="LightSkyBlue" Header="Организация работы в системе контроля версий">
+                    <Button Background="LightSkyBlue" Name="Tema5" Click="Tema5_Click" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests5" Click="Tests5_Click" Content="Вопросы"/>
+                </TreeViewItem>
+                <TreeViewItem Background="LightSkyBlue" Header="Отладка ПП. Инструменты отладки">
+                    <Button Background="LightSkyBlue" Name="Tema6" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests6" Content="Вопросы"/>
+                </TreeViewItem>
+                <TreeViewItem Background="LightSkyBlue" Header="Ручное и автоматизированное тестирование">
+                    <Button Background="LightSkyBlue" Name="Tema7" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests7" Content="Вопросы"/>
+                </TreeViewItem>
+                <TreeViewItem Background="LightSkyBlue" Header="Инструментарии анализа качества ПП">
+                    <Button Background="LightSkyBlue" Name="Tema8" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests8" Content="Вопросы"/>
+                </TreeViewItem>
+                <TreeViewItem Background="LightSkyBlue" Header="Обработка исключительных ситуаций">
+                    <Button Background="LightSkyBlue" Name="Tema9" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests9" Content="Вопросы"/>
+                </TreeViewItem>
+                <TreeViewItem Background="LightSkyBlue" Header="Выявление ошибок системных компонентов">
+                    <Button Background="LightSkyBlue" Name="Tema10" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests10" Content="Вопросы"/>
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+    </Grid>
+</Page>
