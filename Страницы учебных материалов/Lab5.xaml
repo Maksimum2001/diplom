@@ -1,0 +1,53 @@
+﻿<Page x:Class="Diplom.Страницы_лабораторных_работ.Lab5"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_лабораторных_работ"
+      mc:Ignorable="d" 
+      d:DesignHeight="3000" d:DesignWidth="1000" MaxHeight="3000" MinWidth="900" MinHeight="700"
+      Title="Lab5">
+
+    <ScrollViewer>
+        <StackPanel Background="Peru">
+            <Label>Лабораторная работа №5. Отладка проекта</Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Цель занятия:"></TextBlock>
+                <TextBlock>закрепление практических навыки работы с системой Visual Studio 2019;</TextBlock>
+            </StackPanel>
+            <TextBlock>научиться использовать инструментальные средства, помогающие провести отладку приложений.</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Оборудование, технические и программные средства:"></TextBlock>
+                <TextBlock>персональный компьютер, среда программирования Visual Studio 2019.</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Продолжительность занятия:"></TextBlock>
+                <TextBlock>2 часа.</TextBlock>
+            </StackPanel>
+            <TextBlock FontWeight="Bold" Margin="35,0,0,0">Задание:</TextBlock>
+            <TextBlock Text="           1.	Создание программы по индивидуальному варианту задания"></TextBlock>
+            <TextBlock Text="           2.	Проведите отладку программы всеми доступными вам средствами среды разработки."></TextBlock>
+            <TextBlock FontWeight="Bold" Margin="35,5,0,0" Text="Теоретические сведения:"></TextBlock>
+            <TextBlock Margin="60,5,0,0">
+                    Cодержаться в теме:<Hyperlink Foreground="Cyan" NavigateUri="Str6.xaml">Отладка ПП. Инструменты отладки</Hyperlink>
+            </TextBlock>
+            <TextBlock FontWeight="Bold" Text="       Выполнение работы:"></TextBlock>
+            <TextBlock Text="           1. Разработайте проект в соответствии с вариантом"></TextBlock>
+            <TextBlock Text="           2. Перейдите в режим отладки. При остановке выполнения программы добавьте в окно просмотра наименования нескольких интересующих Вас переменных"></TextBlock>
+            <TextBlock Text="           3. Вызовите окно просмотра. Далее выполняйте программу по шагам. В окне просмотра можно наблюдать интересующие Вас переменные"></TextBlock>
+            <TextBlock Text="           4. Установите в программе несколько контрольных точек и запустите программу на выполнение"></TextBlock>
+            <TextBlock Text="           5. Просмотрите значения интересующих Вас переменных с помощью окна просмотра, так же как это было предложено в предыдущем пункте"></TextBlock>
+            <TextBlock Text="           6. При остановке выполнения программы откройте окно и просмотрите значения интересующих Вас переменных. Измените значение какой-нибудь переменной, записав новое в окно"></TextBlock>
+            <TextBlock Text="           7. Выполните такое же задания, используя точки останова (Breakpoint)"></TextBlock>
+            <TextBlock Text="           8. Продолжите отладку разрабатываемой программы, используя навыки работы с отладчиком"></TextBlock>
+            <TextBlock Margin="35,20,0,0" FontWeight="Bold">Требования к отчету:</TextBlock>
+            <TextBlock Text="              Отчёт должен быть оформлен в Microsoft Office Word, распечатан и предоставлен на проверку. Текст должен быть написан шрифтом Times New Roman, 12. Интервал между строками и абзацами – 1,5. Отступ слева 1,5. Ориентация текста – по ширине страницы. Скриншоты необходимо подписать. Название практической работы, цель работы, ход работы, вывод, ответы на контрольные вопросы, должны быть выделены жирным шрифтом."></TextBlock>
+            <TextBlock Margin="35,5,0,0" FontWeight="Bold">Контрольные вопросы:</TextBlock>
+            <ListBox>
+                <ListBoxItem Margin="50,5,0,0">1. Что такое отладка?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">2. Какие инструменты отладки вам известны?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,40">3. Методы отладки.</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

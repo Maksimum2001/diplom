@@ -1,0 +1,43 @@
+﻿<Page x:Class="Diplom.Страницы_учебных_материалов.Test9"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
+      mc:Ignorable="d" 
+      MaxHeight="1000" MinWidth="900" MinHeight="700"
+      Title="Test9">
+    
+    <StackPanel Background="CornflowerBlue">
+        <TextBlock>Какая конструкция обрабатывает исключения?</TextBlock>
+        <StackPanel>
+            <RadioButton>do...while</RadioButton>
+            <RadioButton Name="trusty1">try..catch..finally</RadioButton>
+            <RadioButton>if..else</RadioButton>
+        </StackPanel>
+        <TextBlock>Что происходит если среда CLR не находит блок catch при возникновении исключения?</TextBlock>
+        <StackPanel>
+            <RadioButton Name="trusty2">программа аварийно завершает свое выполнение</RadioButton>
+            <RadioButton>программа переходит в блок finally</RadioButton>
+            <RadioButton>программа продолжает выполнение</RadioButton>
+        </StackPanel>
+        <TextBlock>Какой блок обязателен в конструкции try..catch..finally?</TextBlock>
+        <StackPanel>
+            <RadioButton>catch</RadioButton>
+            <RadioButton>finally</RadioButton>
+            <RadioButton Name="trusty3">try</RadioButton>
+        </StackPanel>
+        <TextBlock>Что оптимальнее использовать для проверки исключительных ситуаций?</TextBlock>
+        <StackPanel>
+            <RadioButton>блок try..catch</RadioButton>
+            <RadioButton Name="trusty4">условные конструкции</RadioButton>
+        </StackPanel>
+        <TextBlock>Что возвращает метод int.TryParse() если преобразование можно осуществить?</TextBlock>
+        <StackPanel>
+            <RadioButton>false</RadioButton>
+            <RadioButton Name="trusty5">true</RadioButton>
+        </StackPanel>
+        <Button Name="Tester9" Background="Transparent" Width="Auto" Height="Auto" HorizontalAlignment="Center" Click="Tester9_Click">Получить результат</Button>
+        <TextBlock Margin="0,0,10,20" FontSize="25" x:Name="result9" HorizontalAlignment="Right" Text="Оценка:" VerticalAlignment="Top" Width="130"/>
+    </StackPanel>
+</Page>

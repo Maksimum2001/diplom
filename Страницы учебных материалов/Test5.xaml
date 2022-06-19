@@ -5,10 +5,41 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      MaxHeight="1000" MinWidth="900" MinHeight="700"
       Title="Test5">
 
-    <Grid>
-        
-    </Grid>
+    <StackPanel Background="CornflowerBlue">
+        <TextBlock>Какой процент кода могут скопировать разработчики из представленных проектов в открытых репозиториях для своего продукта?</TextBlock>
+        <StackPanel>
+            <RadioButton>около 50%</RadioButton>
+            <RadioButton>от 40 до 60%</RadioButton>
+            <RadioButton Name="trusty1">от 30 до 70%</RadioButton>
+        </StackPanel>
+        <TextBlock>Достоинство примитивной модели хранения версий.</TextBlock>
+        <StackPanel>
+            <RadioButton>возможность совместной разработки</RadioButton>
+            <RadioButton>высокая скорость выполнения восстановления</RadioButton>
+            <RadioButton Name="trusty2">возможность восстановления данных одной из записанных версий</RadioButton>
+        </StackPanel>
+        <TextBlock>Что хранят на компьютере локальные СКВ?</TextBlock>
+        <StackPanel>
+            <RadioButton Name="trusty3">список изменений, внесенных в файлы</RadioButton>
+            <RadioButton>актуальные копии проекта</RadioButton>
+            <RadioButton>ветви дерева проекта</RadioButton>
+        </StackPanel>
+        <TextBlock>Один из недостатков централизованной СКВ.</TextBlock>
+        <StackPanel>
+            <RadioButton>возможность потери данных</RadioButton>
+            <RadioButton Name="trusty4">низкая скорость работы</RadioButton>
+            <RadioButton>отсутствие возможности ведения командной разработки</RadioButton>
+        </StackPanel>
+        <TextBlock>Какая СКВ самая популярная на сегодняшний день?</TextBlock>
+        <StackPanel>
+            <RadioButton Name="trusty5">Git</RadioButton>
+            <RadioButton>Mercurial</RadioButton>
+            <RadioButton>Monotone</RadioButton>
+        </StackPanel>
+        <Button Name="Tester5" Background="Transparent" Width="Auto" Height="Auto" HorizontalAlignment="Center" Click="Tester5_Click">Получить результат</Button>
+        <TextBlock Margin="0,0,10,20" FontSize="25" x:Name="result5" HorizontalAlignment="Right" Text="Оценка:" VerticalAlignment="Top" Width="130"/>
+    </StackPanel>
 </Page>

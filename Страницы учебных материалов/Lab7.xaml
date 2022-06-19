@@ -1,0 +1,43 @@
+﻿<Page x:Class="Diplom.Страницы_лабораторных_работ.Lab7"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_лабораторных_работ"
+      mc:Ignorable="d" 
+      d:DesignHeight="3000" d:DesignWidth="1000" MaxHeight="3000" MinWidth="900" MinHeight="700"
+      Title="Lab7">
+
+    <ScrollViewer>
+        <StackPanel Background="Peru">
+            <Label>Лабораторная работа №7. Разработка тестовых модулей проекта</Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Цель занятия:"></TextBlock>
+                <TextBlock>Ознакомление с видами оптимизации программы, оптимизация индивидуального модуля по выбранному параметру (время выполнения, объем памяти).</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Оборудование, технические и программные средства:"></TextBlock>
+                <TextBlock>персональный компьютер, среда программирования Visual Studio 2019.</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Продолжительность занятия:"></TextBlock>
+                <TextBlock>4 часа.</TextBlock>
+            </StackPanel>
+            <TextBlock FontWeight="Bold" Margin="35,0,0,0">Задание:</TextBlock>
+            <TextBlock Text="       Разработать тестовые модули проекта для тестирования отдельных модулей, провести оптимизацию программы по выбранному параметру"></TextBlock>
+            <TextBlock FontWeight="Bold" Text="       Выполнение работы:"></TextBlock>
+            <TextBlock Text="           1. Для индивидуального модуля выбрать параметр оптимизации и определить его количественные характеристики."></TextBlock>
+            <TextBlock Text="           2. Провести оптимизацию программы по выбранному параметру."></TextBlock>
+            <TextBlock Text="           3. Сравнить характеристики исходного модуля и модуля, полученного в результате оптимизации."></TextBlock>
+            <TextBlock Text="           4. Оформить отчет, содержащий описание, обоснование и результаты оптимизации программы."></TextBlock>
+            <TextBlock Margin="35,20,0,0" FontWeight="Bold">Требования к отчету:</TextBlock>
+            <TextBlock Text="              Отчёт должен быть оформлен в Microsoft Office Word, распечатан и предоставлен на проверку. Текст должен быть написан шрифтом Times New Roman, 12. Интервал между строками и абзацами – 1,5. Отступ слева 1,5. Ориентация текста – по ширине страницы. Скриншоты необходимо подписать. Название практической работы, цель работы, ход работы, вывод, ответы на контрольные вопросы, должны быть выделены жирным шрифтом."></TextBlock>
+            <TextBlock Margin="35,5,0,0" FontWeight="Bold">Контрольные вопросы:</TextBlock>
+            <ListBox>
+                <ListBoxItem Margin="50,5,0,0">1. От чего зависит выбор метода оптимизации?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">2. Почему большое внимание уделяется циклическим участкам?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,40">3. К каким нежелательным последствиям может привести оптимизация?</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

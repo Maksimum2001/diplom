@@ -5,10 +5,41 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      MaxHeight="1000" MinWidth="900" MinHeight="700"
       Title="Test3">
 
-    <Grid>
-        
-    </Grid>
+    <StackPanel Background="CornflowerBlue">
+        <TextBlock>Источник данных - это источник, который...</TextBlock>
+        <StackPanel>
+            <RadioButton>содержит дополнительные команды для просмотра и редактирования выбранного объекта</RadioButton>
+            <RadioButton Name="trusty1">содержит данные и сведения о подключении, необходимые для доступа к этим данным</RadioButton>
+            <RadioButton>предназначен для экспорта данных в файлы</RadioButton>
+        </StackPanel>
+        <TextBlock>Что относится к форматированию?</TextBlock>
+        <StackPanel>
+            <RadioButton>проверка орфографии, выделение текста, копирование текста</RadioButton>
+            <RadioButton>использование горячих клавиш, перемещение фрагментов текста</RadioButton>
+            <RadioButton Name="trusty2">создание таблицы, оформление списка, подчеркивание слова</RadioButton>
+        </StackPanel>
+        <TextBlock>Что можно использовать для подключения к Microsoft SQL Server ?</TextBlock>
+        <StackPanel>
+            <RadioButton>поставщик данных .NET Framework для SQL Server</RadioButton>
+            <RadioButton>драйвер ODBC для SQL Server</RadioButton>
+            <RadioButton Name="trusty3">оба варианта верны</RadioButton>
+        </StackPanel>
+        <TextBlock>Что могут включать сведения о подключении?</TextBlock>
+        <StackPanel>
+            <RadioButton>информацию о пользователе</RadioButton>
+            <RadioButton Name="trusty4">идентификатор входа, расположения сервера</RadioButton>
+            <RadioButton>пакетные файлы, скрипты</RadioButton>
+        </StackPanel>
+        <TextBlock>Какие два типа машинных источников данных существуют?</TextBlock>
+        <StackPanel>
+            <RadioButton Name="trusty5">пользовательские и системные</RadioButton>
+            <RadioButton>интеграционные и централизованные</RadioButton>
+            <RadioButton>файловые и структурные</RadioButton>
+        </StackPanel>
+        <Button Name="Tester3" Background="Transparent" Width="Auto" Height="Auto" HorizontalAlignment="Center" Click="Tester3_Click">Получить результат</Button>
+        <TextBlock Margin="0,0,10,20" FontSize="25" x:Name="result3" HorizontalAlignment="Right" Text="Оценка:" VerticalAlignment="Top" Width="130"/>
+    </StackPanel>
 </Page>

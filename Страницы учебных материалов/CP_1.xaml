@@ -1,0 +1,58 @@
+﻿<Page x:Class="Diplom.Страницы_учебных_материалов.CP_1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
+      mc:Ignorable="d" 
+      d:DesignHeight="3000" d:DesignWidth="1000" MaxHeight="3000" MinWidth="900" MinHeight="700"
+      Title="CP_1">
+
+    <ScrollViewer>
+        <StackPanel Background="Peru">
+            <Label>Самостоятельная работа. Документирование результатов тестирования</Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Цель занятия:"></TextBlock>
+                <TextBlock>составить итоговый отчет о результатах тестирования приложения.</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Оборудование, технические и программные средства:"></TextBlock>
+                <TextBlock>персональный компьютер, программа Visual Studio.</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Продолжительность занятия:"></TextBlock>
+                <TextBlock>4 часа.</TextBlock>
+            </StackPanel>
+            <TextBlock FontWeight="Bold" Margin="35,0,0,0">Задание:</TextBlock>
+            <ListBox>
+                <ListViewItem Margin="50,5,0,0">1. Провести документирование результатов тестирования программного средства</ListViewItem>
+                <ListViewItem Margin="50,5,0,0">2. Составить отчет по лабораторной работе</ListViewItem>
+            </ListBox>
+            <TextBlock FontWeight="Bold" Margin="35,0,0,0">Теоретические сведения:</TextBlock>
+            <TextBlock Margin="35,0,0,0">Итоговый отчет можно разделить на части с соответствующей информацией:</TextBlock>
+            <ListBox>
+                <ListViewItem Margin="50,5,0,0">• Приветствие</ListViewItem>
+                <ListViewItem Margin="50,5,0,0">• Общая информация (Common Information)</ListViewItem>
+                <ListViewItem Margin="50,5,0,0">• Тестовое окружение (Test Platform)</ListViewItem>
+                <ListViewItem Margin="50,5,0,0">• Рекомендации QA (QA Recommendations)</ListViewItem>
+                <ListViewItem Margin="50,5,0,0">• Детализированная информация (Detailed Information</ListViewItem>
+                <ListViewItem Margin="50,5,0,0">• Окончание содержимого</ListViewItem>
+            </ListBox>
+            <TextBlock FontWeight="Bold" Margin="35,10,0,0">Выполнение работы:</TextBlock>
+            <ListBox>
+                <ListViewItem Margin="50,5,0,0">1. Запустить ранее созданное приложение</ListViewItem>
+                <ListViewItem Margin="50,5,0,0">2. Составить итоговый отчет по результатам тестирования приложения</ListViewItem>
+                <ListViewItem Margin="50,5,0,0">3. Оформить отчет и защитить лабораторную работу</ListViewItem>
+            </ListBox>
+            <TextBlock Margin="35,20,0,0" FontWeight="Bold">Требования к отчету:</TextBlock>
+            <TextBlock Text="              Отчёт должен быть оформлен в Microsoft Office Word, распечатан и предоставлен на проверку. Текст должен быть написан шрифтом Times New Roman, 12. Интервал между строками и абзацами – 1,5. Отступ слева 1,5. Ориентация текста – по ширине страницы. Скриншоты необходимо подписать. Название практической работы, цель работы, ход работы, вывод, ответы на контрольные вопросы, должны быть выделены жирным шрифтом."></TextBlock>
+            <TextBlock Margin="35,5,0,0" FontWeight="Bold">Контрольные вопросы:</TextBlock>
+            <ListBox>
+                <ListBoxItem Margin="50,5,0,0">1. Какая структура итогового отчета о результатах тестирования?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">2. Что содержится в разделе Общая информация??</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">3. Что содержится в разделе Тестовое окружение?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,40">4. Что содержится в разделе Детализированная информация?</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

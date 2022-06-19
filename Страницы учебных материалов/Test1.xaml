@@ -5,10 +5,42 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      MaxHeight="1000" MinWidth="900" MinHeight="700"
       Title="Test1">
 
-    <Grid>
-        
-    </Grid>
+    <StackPanel Background="CornflowerBlue">
+        <TextBlock> Какого класса уровня репозиториев не существует?</TextBlock>
+        <StackPanel>
+            <RadioButton>Уровня программного интерфейса</RadioButton>
+            <RadioButton>Уровня окружения</RadioButton>
+            <RadioButton Name="trusty1">Уровня структурирования</RadioButton>
+        </StackPanel>
+        <TextBlock> Языково-зависимая группа включает в себя?</TextBlock>
+        <StackPanel>
+            <RadioButton>Коды встроенных функций</RadioButton>
+            <RadioButton>Виртуальные функции</RadioButton>
+            <RadioButton Name="trusty2">Все варианты верны</RadioButton>
+            <RadioButton>Информацию для шаблонов</RadioButton>
+        </StackPanel>
+        <TextBlock>Какой процент ПО создаётся по уже имеющемуся?</TextBlock>
+        <StackPanel>
+            <RadioButton>Примерно 40%</RadioButton>
+            <RadioButton>Не более 60%</RadioButton>
+            <RadioButton Name="trusty3">Около 80%</RadioButton>
+        </StackPanel>
+        <TextBlock>Какой тип структуры относится к основным?</TextBlock>
+        <StackPanel>
+            <RadioButton Name="trusty4">матричный</RadioButton>
+            <RadioButton>централизованный</RadioButton>
+            <RadioButton>интеграционный</RadioButton>
+        </StackPanel>
+        <TextBlock>Для чего предназначен уровень окружения?</TextBlock>
+        <StackPanel>
+            <RadioButton>Для командной разработки</RadioButton>
+            <RadioButton Name="trusty5">Для хранения информации</RadioButton>
+            <RadioButton>Для внедрения ПП-кта в эксплуатацию</RadioButton>
+        </StackPanel>
+        <Button Name="Tester1" Background="Transparent" Width="Auto" Height="Auto" HorizontalAlignment="Center" Click="Tester1_Click">Получить результат</Button>
+        <TextBlock Margin="0,0,10,20" FontSize="25" x:Name="result1" HorizontalAlignment="Right" Text="Оценка:" VerticalAlignment="Top" Width="130"/>
+    </StackPanel>
 </Page>

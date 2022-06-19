@@ -4,12 +4,13 @@
              xmlns:local="clr-namespace:Diplom"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style TargetType="Label">
+        <!--Стилизация некоторых элементов управления-->
+        <Style TargetType="Label"> 
             <Setter Property="Margin" Value="15"></Setter>
             <Setter Property="Foreground" Value="Black"></Setter>
             <Setter Property="FontSize" Value="24"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
-            <Setter Property="Background" Value="DodgerBlue"></Setter>
+            <Setter Property="Background" Value="Transparent"></Setter>
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
             <Setter Property="FontFamily" Value="Arial"></Setter>
         </Style>
@@ -24,7 +25,7 @@
             <Setter Property="FontSize" Value="18"></Setter>
             <Setter Property="BorderBrush" Value="Transparent"></Setter>
             <Setter Property="FontFamily" Value="Times New Roman"></Setter>
-            <Setter Property="Background" Value="DodgerBlue"></Setter>
+            <Setter Property="Background" Value="Transparent"></Setter>
         </Style>
         <Style TargetType="ListBoxItem">
             <Setter Property="Margin" Value="2"></Setter>

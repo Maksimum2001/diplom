@@ -1,0 +1,44 @@
+﻿<Page x:Class="Diplom.Страницы_учебных_материалов.Test8"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
+      mc:Ignorable="d" 
+      MaxHeight="1000" MinWidth="900" MinHeight="700"
+      Title="Test8">
+
+    <StackPanel Background="CornflowerBlue">
+        <TextBlock>Какой программный продукт можно считать качественным?</TextBlock>
+        <StackPanel>
+            <RadioButton>который соответствует руководству программиста</RadioButton>
+            <RadioButton>который соответствует нормативным документам</RadioButton>
+            <RadioButton Name="trusty1">который соответствует функциональным и нефункциональным требованиям, в соответствии с которыми он создавался</RadioButton>
+        </StackPanel>
+        <TextBlock>Какие бывают виды тестов?</TextBlock>
+        <StackPanel>
+            <RadioButton>структурные, интеграционные</RadioButton>
+            <RadioButton Name="trusty2">модульные, функциональные, комплексные</RadioButton>
+            <RadioButton>аналоговые, магистральные, избирательные</RadioButton>
+        </StackPanel>
+        <TextBlock>Что такое рефакторинг?</TextBlock>
+        <StackPanel>
+            <RadioButton>это термин, используемый для обозначения объекта, который может манипулировать различными операндами</RadioButton>
+            <RadioButton>это общий термин, используемый для обозначения непредвиденной ошибки или дефекта в аппаратном или программном обеспечении</RadioButton>
+            <RadioButton Name="trusty3">это переработка исходного кода программы, чтобы он стал более простым и понятным</RadioButton>
+        </StackPanel>
+        <TextBlock>Добавляет ли рефакторинг функциональность в программу?</TextBlock>
+        <StackPanel>
+            <RadioButton>добаляет, если разработчик этого пожелает</RadioButton>
+            <RadioButton Name="trusty4">не добавляет новую функциональность</RadioButton>
+        </StackPanel>
+        <TextBlock>В новой программе рефакторинг нужен для того, чтобы...</TextBlock>
+        <StackPanel>
+            <RadioButton>сохранять версии программы</RadioButton>
+            <RadioButton Name="trusty5">ускорить разработку и поиск ошибок</RadioButton>
+            <RadioButton>устанавливать или изменять значения переменных в процессе выполнения кода</RadioButton>
+        </StackPanel>
+        <Button Name="Tester8" Background="Transparent" Width="Auto" Height="Auto" HorizontalAlignment="Center" Click="Tester8_Click">Получить результат</Button>
+        <TextBlock Margin="0,0,10,20" FontSize="25" x:Name="result8" HorizontalAlignment="Right" Text="Оценка:" VerticalAlignment="Top" Width="130"/>
+    </StackPanel>
+</Page>

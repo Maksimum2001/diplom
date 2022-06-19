@@ -5,10 +5,42 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      MaxHeight="1000" MinWidth="900" MinHeight="700"
       Title="Test2">
 
-    <Grid>
-        
-    </Grid>
-</Page>
+    <StackPanel Background="CornflowerBlue">
+        <TextBlock>Интеграция - это?</TextBlock>
+        <StackPanel>
+            <RadioButton>процесс получения разрешения на использование ПО</RadioButton>
+            <RadioButton Name="trusty1">процесс объединения частей в целое</RadioButton>
+            <RadioButton>процесс создания программного продукта</RadioButton>
+        </StackPanel>
+        <TextBlock>Что характеризует модуль?</TextBlock>
+        <StackPanel>
+            <RadioButton Name="trusty2">все варианты верны</RadioButton>
+            <RadioButton>слабые информационные связи с другими программными модулями</RadioButton>
+            <RadioButton>функциональная завершенность</RadioButton>
+            <RadioButton>один вход и один выход</RadioButton>
+        </StackPanel>
+        <TextBlock>В чём смысл интеграции?</TextBlock>
+        <StackPanel>
+            <RadioButton>В анализе и устранени ошибок в программном обеспечении</RadioButton>
+            <RadioButton Name="trusty3">В том, чтобы данные, которые пользователь вводит в одну систему, автоматически переносились в другую.</RadioButton>
+            <RadioButton>В обеспечении надёжности и правильности использования ПО</RadioButton>
+        </StackPanel>
+        <TextBlock>Что такое протокол передачи данных?</TextBlock>
+        <StackPanel>
+            <RadioButton Name="trusty4">это правила передачи информации в сети</RadioButton>
+            <RadioButton>это обмен данными между системами с возможной последующей их обработкой</RadioButton>
+            <RadioButton>это способ организации связей и отношений между элементами</RadioButton>
+        </StackPanel>
+        <TextBlock>За что отвечает протокол http?</TextBlock>
+        <StackPanel>
+            <RadioButton>Передача файлов</RadioButton>
+            <RadioButton>Передача данных</RadioButton>
+            <RadioButton Name="trusty5">Передача гипертекстовых сообщений</RadioButton>
+        </StackPanel>
+        <Button Name="Tester2" Background="Transparent" Width="Auto" Height="Auto" HorizontalAlignment="Center" Click="Tester2_Click">Получить результат</Button>
+        <TextBlock Margin="0,0,10,20" x:Name="result2" HorizontalAlignment="Right" FontSize="25" Text="Оценка:" VerticalAlignment="Top" Width="130"/>
+    </StackPanel>
+</Page>          

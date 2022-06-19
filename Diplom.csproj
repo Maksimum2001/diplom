@@ -61,11 +61,41 @@
     </ApplicationDefinition>
     <Compile Include="Help.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="Страницы учебных материалов\CP_1.xaml.cs">
+      <DependentUpon>CP_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Lab1.xaml.cs">
+      <DependentUpon>Lab1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Lab2.xaml.cs">
+      <DependentUpon>Lab2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Lab3.xaml.cs">
+      <DependentUpon>Lab3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Lab4.xaml.cs">
+      <DependentUpon>Lab4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Lab5.xaml.cs">
+      <DependentUpon>Lab5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Lab6.xaml.cs">
+      <DependentUpon>Lab6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Lab7.xaml.cs">
+      <DependentUpon>Lab7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Lab8.xaml.cs">
+      <DependentUpon>Lab8.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Страницы учебных материалов\Str.xaml.cs">
       <DependentUpon>Str.xaml</DependentUpon>
     </Compile>
     <Compile Include="Страницы учебных материалов\Str1.xaml.cs">
       <DependentUpon>Str1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Str10.xaml.cs">
+      <DependentUpon>Str10.xaml</DependentUpon>
     </Compile>
     <Compile Include="Страницы учебных материалов\Str2.xaml.cs">
       <DependentUpon>Str2.xaml</DependentUpon>
@@ -85,8 +115,17 @@
     <Compile Include="Страницы учебных материалов\Str7.xaml.cs">
       <DependentUpon>Str7.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Страницы учебных материалов\Str8.xaml.cs">
+      <DependentUpon>Str8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Str9.xaml.cs">
+      <DependentUpon>Str9.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Страницы учебных материалов\Test1.xaml.cs">
       <DependentUpon>Test1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Test10.xaml.cs">
+      <DependentUpon>Test10.xaml</DependentUpon>
     </Compile>
     <Compile Include="Страницы учебных материалов\Test2.xaml.cs">
       <DependentUpon>Test2.xaml</DependentUpon>
@@ -100,6 +139,18 @@
     <Compile Include="Страницы учебных материалов\Test5.xaml.cs">
       <DependentUpon>Test5.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Страницы учебных материалов\Test6.xaml.cs">
+      <DependentUpon>Test6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Test7.xaml.cs">
+      <DependentUpon>Test7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Test8.xaml.cs">
+      <DependentUpon>Test8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Страницы учебных материалов\Test9.xaml.cs">
+      <DependentUpon>Test9.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -112,11 +163,51 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Страницы учебных материалов\CP_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Lab1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Lab2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Lab3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Lab4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Lab5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Lab6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Lab7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Lab8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Страницы учебных материалов\Str.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Страницы учебных материалов\Str1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Str10.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -144,7 +235,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Страницы учебных материалов\Str8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Str9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Страницы учебных материалов\Test1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Test10.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -161,6 +264,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Страницы учебных материалов\Test5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Test6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Test7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Test8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Страницы учебных материалов\Test9.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -244,6 +363,66 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ярлык.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\7_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\7_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\8_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\8_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\8_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\8_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\8_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\9_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\9_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\9_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\9_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\9_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\9_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\9_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\9_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Lab1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Lab1_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Lab1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Lab2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Lab2_2.jpg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,46 @@
+﻿<Page x:Class="Diplom.Страницы_учебных_материалов.Test10"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
+      mc:Ignorable="d" 
+      MaxHeight="1000" MinWidth="900" MinHeight="700"
+      Title="Test10">
+
+    <StackPanel Background="CornflowerBlue">
+        <TextBlock>Ошибка в программе это...</TextBlock>
+        <StackPanel>
+            <RadioButton>отдельная строка кода, написанная легально на языке программирования, которая выражает действие</RadioButton>
+            <RadioButton>особое, неожиданное и аномальное состояние, возникающее во время выполнения программы</RadioButton>
+            <RadioButton Name="trusty1">состояние программы, при котором выдаются неправильные результаты</RadioButton>
+        </StackPanel>
+        <TextBlock>Что называется отказом в программе?</TextBlock>
+        <StackPanel>
+            <RadioButton>следствие ошибок разработчика на любом из этапов разработки</RadioButton>
+            <RadioButton Name="trusty2">отклонение программы от функционирования или невозможность программы выполнять функции</RadioButton>
+            <RadioButton>наименьшая отдельная единица в программе, часто ссылающаяся на часть гораздо большего фрагмента данных</RadioButton>
+        </StackPanel>
+        <TextBlock>Какие ошибки возникают во время процесса разработки требований?</TextBlock>
+        <StackPanel>
+            <RadioButton>несоответствие требований заказчика к отдельным и общим свойствам ПО</RadioButton>
+            <RadioButton>некорректность описания функциональных характеристик</RadioButton>
+            <RadioButton Name="trusty3">все варианты ответов являются верными</RadioButton>
+            <RadioButton>неадекватность спецификации требований конечным пользователям</RadioButton>
+        </StackPanel>
+        <TextBlock>Какие ошибки обнаруживаются на этапе сопровождения?</TextBlock>
+        <StackPanel>
+            <RadioButton>ошибки, которые являются результатом дефектов проектирования</RadioButton>
+            <RadioButton Name="trusty4">ошибки, причиной которых являются недоработки и дефекты эксплуатационной документации</RadioButton>
+            <RadioButton>ошибки, проявляющиеся при выполнении технологии сборки и тестирования</RadioButton>
+        </StackPanel>
+        <TextBlock>По какой причине возникают ошибки вычислений?</TextBlock>
+        <StackPanel>
+            <RadioButton>некачественной подготовки данных для выполнения программы</RadioButton>
+            <RadioButton>по причине того, что реализованные методы доступа и размеры баз данных не удовлетворяют реальным объемам информации</RadioButton>
+            <RadioButton Name="trusty5">по причине неточности исходных данных и реализованных формул</RadioButton>
+        </StackPanel>
+        <Button Name="Tester10" Background="Transparent" Width="Auto" Height="Auto" HorizontalAlignment="Center" Click="Tester10_Click">Получить результат</Button>
+        <TextBlock Margin="0,0,10,20" FontSize="25" x:Name="result10" HorizontalAlignment="Right" Text="Оценка:" VerticalAlignment="Top" Width="130"/>
+    </StackPanel>
+</Page>

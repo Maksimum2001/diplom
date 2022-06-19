@@ -1,0 +1,51 @@
+﻿<Page x:Class="Diplom.Страницы_лабораторных_работ.Lab6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_лабораторных_работ"
+      mc:Ignorable="d" 
+      d:DesignHeight="3000" d:DesignWidth="1000" MaxHeight="3000" MinWidth="900" MinHeight="700"
+      Title="Lab6">
+
+    <ScrollViewer>
+        <StackPanel Background="Peru">
+            <Label>Лабораторная работа №6. Тестирование интерфейса</Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Цель занятия:"></TextBlock>
+                <TextBlock>формирование навыков разработки графических пользовательских интерфейсов с использованием средств MS Visual Studio 2010</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Оборудование, технические и программные средства:"></TextBlock>
+                <TextBlock>персональный компьютер, среда программирования Visual Studio 2019.</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Продолжительность занятия:"></TextBlock>
+                <TextBlock>2 часа.</TextBlock>
+            </StackPanel>
+            <TextBlock FontWeight="Bold" Margin="35,0,0,0">Задание:</TextBlock>
+            <TextBlock Margin="60,0,0,0">1. Определить предметную область и сферу применения программного продукта</TextBlock>
+            <TextBlock Margin="60,0,0,0">2. Определить целевую аудиторию</TextBlock>
+            <TextBlock Margin="60,0,0,0">3. Построить описательную модель пользователя (профиль). При необходимости — выделить группы пользователей</TextBlock>
+            <TextBlock Margin="60,0,0,0">4. Сформировать множество сценариев поведения пользователей на основании составленной модели</TextBlock>
+            <TextBlock Margin="60,0,0,0">5. Выделить функциональные блоки приложения и схему навигации между ними (структуру диалога)</TextBlock>
+            <TextBlock Margin="60,0,0,0">6. Провести тестирование интерфейса пользователя</TextBlock>
+            <TextBlock Margin="0,10,0,0" Text="        В качестве основы для выполнения данной лабораторной работы предлагается использовать одно из ранее разработанных ими приложений."></TextBlock>
+            <TextBlock FontWeight="Bold" Margin="35,5,0,0" Text="Теоретические сведения:"></TextBlock>
+            <TextBlock Margin="60,5,0,0">
+                    Cодержаться в теме:<Hyperlink Foreground="Cyan" NavigateUri="Str7.xaml">Ручное и автоматизированное тестирование</Hyperlink>
+            </TextBlock>
+            <TextBlock Margin="35,20,0,0" FontWeight="Bold">Требования к отчету:</TextBlock>
+            <TextBlock Text="              Отчёт должен быть оформлен в Microsoft Office Word, распечатан и предоставлен на проверку. Текст должен быть написан шрифтом Times New Roman, 12. Интервал между строками и абзацами – 1,5. Отступ слева 1,5. Ориентация текста – по ширине страницы. Скриншоты необходимо подписать. Название практической работы, цель работы, ход работы, вывод, ответы на контрольные вопросы, должны быть выделены жирным шрифтом."></TextBlock>
+            <TextBlock Margin="35,5,0,0" FontWeight="Bold">Контрольные вопросы:</TextBlock>
+            <ListBox>
+                <ListBoxItem Margin="50,5,0,0">1. Что такое интерфейс?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">2. Какие типы пользовательских интерфейсов существуют?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">3. Какие модели интерфейсов существуют?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">4. Что такое диалог?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">5. Какие типы диалогов существуют?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,40">6. Какие формы диалога Вы знаете?</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

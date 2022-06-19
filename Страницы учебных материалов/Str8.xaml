@@ -1,0 +1,54 @@
+﻿<Page x:Class="Diplom.Страницы_учебных_материалов.Str8"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
+      mc:Ignorable="d" 
+      d:DesignHeight="5000" d:DesignWidth="1000" MaxHeight="5000" MinWidth="900" MinHeight="700"
+      Title="Str8">
+
+    <ScrollViewer>
+        <StackPanel Background="DodgerBlue">
+            <Label Margin="0,15,0,0">ИНСТРУМЕНТАРИИ АНАЛИЗА КАЧЕСТВА ПРОГРАММНЫХ ПРОДУКТОВ</Label>
+            <Label Margin="0,0,0,15">В СРЕДЕ РАЗРАБОТКЕ</Label>
+            <Label>Введение</Label>
+            <TextBlock Text="       Качественный программный продукт должен отвечать функциональным и нефункциональным требованиям, в соответствии с которыми он создавался, иметь ценность для бизнеса, отвечать ожиданиям пользователей."></TextBlock>
+            <TextBlock Text="       Тестирование программного продукта позволяет на протяжении всего жизненного цикла ПО гарантировать, что программные проекты отвечают заданным параметрам качества."></TextBlock>
+            <Label>Виды тестов</Label>
+            <ListBox Margin="30,5,0,0">
+                <ListBoxItem>•	Модульное тестирование</ListBoxItem>
+                <ListBoxItem>•	Исследовательское тестирование</ListBoxItem>
+                <ListBoxItem>•	Функциональное тестирование</ListBoxItem>
+                <ListBoxItem>•	Нагрузочное тестирование</ListBoxItem>
+                <ListBoxItem>•	Регрессионное тестирование</ListBoxItem>
+                <ListBoxItem>•	Комплексное тестирование</ListBoxItem>
+                <ListBoxItem>•	Приемочное тестирование</ListBoxItem>
+            </ListBox>
+            <Label>Создание проекта модульного теста</Label>
+            <Image Source="/Diplom;component/Resources/8_1.png" Height="306" Width="564"></Image>
+            <Label>Шаги тестирования пользовательского интерфейса</Label>
+            <Image Source="/Diplom;component/Resources/8_2.png" Width="527" Height="379"></Image>
+            <Label>Средства запуска тестов</Label>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="10">
+                <TextBlock Margin="20,0">До выполнения теста</TextBlock>
+                <TextBlock Margin="20,0">После выполнения теста</TextBlock>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Image HorizontalAlignment="Right" Source="/Diplom;component/Resources/8_3.png" Height="408" Width="215"></Image>
+                <Image Source="/Diplom;component/Resources/8_4.png" Height="408" Width="269" />
+            </StackPanel>
+            <Label>Рефакторинг</Label>
+            <TextBlock Text="       Процесс  изменения программной системы таким образом, что её внешнее поведение не изменяется, а внутренняя структура улучшается."></TextBlock>
+            <TextBlock Text="       Рефакторинг - это переработка исходного кода программы, чтобы он стал более простым и понятным. Рефакторинг не меняет поведение программы, не исправляет ошибки и не добавляет новую функциональность. Он делает код более понятным и удобочитаемым."></TextBlock>
+            <Label>Зачем нужен рефакторинг</Label>
+            <TextBlock Text="       Стройный, хорошо структурированный код легко читается и быстро дорабатывается. Но редко удаётся сразу сделать его таким. Разработчики спешат, в процессе могут меняться требования к задаче, тестировщики находят баги, которые нужно быстро исправить, или возникают срочные доработки, и их приходится делать второпях."></TextBlock>
+            <TextBlock Text="       В результате даже изначально хорошо структурированный исходник становится беспорядочным и непонятным. Программисты знают, как легко завязнуть в этом хаосе. Причём неважно, чужой это код или собственный."></TextBlock>
+            <TextBlock Text="       Чтобы решить все эти проблемы, делается рефакторинг программы. В новом проекте он нужен, чтобы:"></TextBlock>
+            <TextBlock Padding="30,0,0,0" Text="• сохранить архитектуру проекта, не допустить потери структурированности;"></TextBlock>
+            <TextBlock Padding="30,0,0,0" Text="• упростить будущую жизнь разработчиков, сделать код понятным и прозрачным для всех членов команды;"></TextBlock>
+            <TextBlock Padding="30,0,0,0" Text="• ускорить разработку и поиск ошибок."></TextBlock>
+            <Image Margin="0,0,0,50" Source="/Diplom;component/Resources/8_5.jpg" Height="304" Width="542"></Image>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

@@ -5,52 +5,66 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
       mc:Ignorable="d" 
-      d:DesignHeight="10000" d:DesignWidth="1000" MaxHeight="3000" MaxWidth="1400" MinWidth="900"
+      d:DesignHeight="5000" d:DesignWidth="1000" MaxHeight="3000" MinWidth="900" MinHeight="700"
       Title="Str">
-
+    <!--Реализация выпадающего списка с кнопками перехода по страницам приложения--> 
     <Grid Background="DodgerBlue">
         <TreeView Background="LightSkyBlue" Height="Auto" VerticalAlignment="Top" Margin="15,15,15,0">
             <TreeViewItem Header="УЧЕБНЫЕ МАТЕРИАЛЫ" FontFamily="Bodoni MT Black" FontSize="16">
                 <TreeViewItem Background="LightSkyBlue" Header="Понятие репозитория проекта, структура проекта">
                     <Button Background="LightSkyBlue" Name="Tema1" Click="Tema1_Click" Content="Теоретическая часть"/>
-                    <Button Background="LightSkyBlue" Name="Tests1" Click="Tests1_Click" Content="Вопросы"/>
+                    <Button Background="LightSkyBlue" Name="Tests1" Click="Tests1_Click" Content="Тематический тест"/>
                 </TreeViewItem>
                 <TreeViewItem Background="LightSkyBlue" Header="Выбор цели и уровни интеграции программных модулей. Автоматизация бизнес - процессов">
                     <Button Background="LightSkyBlue" Name="Tema2" Click="Tema2_Click" Content="Теоретическая часть"/>
-                    <Button Background="LightSkyBlue" Name="Tests2" Click="Tests2_Click" Content="Вопросы"/>
+                    <Button Background="LightSkyBlue" Name="Tests2" Click="Tests2_Click" Content="Тематический тест"/>
                 </TreeViewItem>
                 <TreeViewItem Background="LightSkyBlue" Header="Выбор источников и приёмников данных. Стандарты форматирования">
                     <Button Background="LightSkyBlue" Name="Tema3" Click="Tema3_Click" Content="Теоретическая часть"/>
-                    <Button Background="LightSkyBlue" Name="Tests3" Click="Tests3_Click" Content="Вопросы"/>
+                    <Button Background="LightSkyBlue" Name="Tests3" Click="Tests3_Click" Content="Тематический тест"/>
                 </TreeViewItem>
                 <TreeViewItem Background="LightSkyBlue" Header="Транспортные протоколы">
                     <Button Background="LightSkyBlue" Name="Tema4" Click="Tema4_Click" Content="Теоретическая часть"/>
-                    <Button Background="LightSkyBlue" Name="Tests4" Click="Tests4_Click" Content="Вопросы"/>
+                    <Button Background="LightSkyBlue" Name="Tests4" Click="Tests4_Click" Content="Тематический тест"/>
                 </TreeViewItem>
                 <TreeViewItem Background="LightSkyBlue" Header="Организация работы в системе контроля версий">
                     <Button Background="LightSkyBlue" Name="Tema5" Click="Tema5_Click" Content="Теоретическая часть"/>
-                    <Button Background="LightSkyBlue" Name="Tests5" Click="Tests5_Click" Content="Вопросы"/>
+                    <Button Background="LightSkyBlue" Name="Tests5" Click="Tests5_Click" Content="Тематический тест"/>
                 </TreeViewItem>
                 <TreeViewItem Background="LightSkyBlue" Header="Отладка ПП. Инструменты отладки">
-                    <Button Background="LightSkyBlue" Name="Tema6" Content="Теоретическая часть"/>
-                    <Button Background="LightSkyBlue" Name="Tests6" Content="Вопросы"/>
+                    <Button Background="LightSkyBlue" Name="Tema6" Click="Tema6_Click" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests6" Click="Tests6_Click" Content="Тематический тест"/>
                 </TreeViewItem>
                 <TreeViewItem Background="LightSkyBlue" Header="Ручное и автоматизированное тестирование">
-                    <Button Background="LightSkyBlue" Name="Tema7" Content="Теоретическая часть"/>
-                    <Button Background="LightSkyBlue" Name="Tests7" Content="Вопросы"/>
+                    <Button Background="LightSkyBlue" Name="Tema7" Click="Tema7_Click" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests7" Click="Tests7_Click" Content="Тематический тест"/>
                 </TreeViewItem>
                 <TreeViewItem Background="LightSkyBlue" Header="Инструментарии анализа качества ПП">
-                    <Button Background="LightSkyBlue" Name="Tema8" Content="Теоретическая часть"/>
-                    <Button Background="LightSkyBlue" Name="Tests8" Content="Вопросы"/>
+                    <Button Background="LightSkyBlue" Name="Tema8" Click="Tema8_Click" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests8" Click="Tests8_Click" Content="Тематический тест"/>
                 </TreeViewItem>
                 <TreeViewItem Background="LightSkyBlue" Header="Обработка исключительных ситуаций">
-                    <Button Background="LightSkyBlue" Name="Tema9" Content="Теоретическая часть"/>
-                    <Button Background="LightSkyBlue" Name="Tests9" Content="Вопросы"/>
+                    <Button Background="LightSkyBlue" Name="Tema9" Click="Tema9_Click" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests9" Click="Tests9_Click" Content="Тематический тест"/>
                 </TreeViewItem>
                 <TreeViewItem Background="LightSkyBlue" Header="Выявление ошибок системных компонентов">
-                    <Button Background="LightSkyBlue" Name="Tema10" Content="Теоретическая часть"/>
-                    <Button Background="LightSkyBlue" Name="Tests10" Content="Вопросы"/>
+                    <Button Background="LightSkyBlue" Name="Tema10" Click="Tema10_Click" Content="Теоретическая часть"/>
+                    <Button Background="LightSkyBlue" Name="Tests10" Click="Tests10_Click" Content="Тематический тест"/>
                 </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Margin="0,5" Header="ЛАБОРАТОРНЫЕ РАБОТЫ" FontFamily="Bodoni MT Black" FontSize="16">
+                <Button Background="LightSkyBlue" Name="Lab1"  Content="Лабораторная работа №1. Разработка структуры проекта" Click="Lab1_Click"/>
+                <Button Background="LightSkyBlue" Name="Lab2"  Content="Лабораторная работа №2. Разработка и оформление модульной структуры проекта" Click="Lab2_Click"/>
+                <Button Background="LightSkyBlue" Name="Lab3"  Content="Лабораторная работа №3. Разработка и интеграция модулей проекта" Click="Lab3_Click"/>
+                <Button Background="LightSkyBlue" Name="Lab4"  Content="Лабораторная работа №4. Отладка отдельных модулей программного проекта" Click="Lab4_Click"/>
+                <Button Background="LightSkyBlue" Name="Lab5"  Content="Лабораторная работа №5. Отладка проекта" Click="Lab5_Click"/>
+                <Button Background="LightSkyBlue" Name="Lab6"  Content="Лабораторная работа №6. Тестирование интерфейса" Click="Lab6_Click"/>
+                <Button Background="LightSkyBlue" Name="Lab7"  Content="Лабораторная работа №7. Разработка тестовых модулей проекта" Click="Lab7_Click"/>
+                <Button Background="LightSkyBlue" Name="Lab8"  Content="Лабораторная работа №8. Выполнение функционального тестирования" Click="Lab8_Click"/>
+            </TreeViewItem>
+            <TreeViewItem Margin="0,5" Header="САМОСТОЯТЕЛЬНАЯ РАБОТА" FontFamily="Bodoni MT Black" FontSize="16">
+                <Button Background="LightSkyBlue" Name="CP1"  Content="Самостоятельная работа. Документирование результатов тестирования - выполнение заданий" Click="CP1_Click"/>
             </TreeViewItem>
         </TreeView>
     </Grid>

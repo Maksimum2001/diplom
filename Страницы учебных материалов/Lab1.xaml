@@ -1,0 +1,56 @@
+﻿<Page x:Class="Diplom.Страницы_лабораторных_работ.Lab1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_лабораторных_работ"
+      mc:Ignorable="d" 
+      d:DesignHeight="3000" d:DesignWidth="1000" MaxHeight="3000" MinWidth="900" MinHeight="700"
+      Title="Lab1">
+
+    <ScrollViewer>
+        <StackPanel Background="Peru">
+            <Label>Лабораторная работа №1. Разработка структуры проекта</Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Цель занятия:"></TextBlock>
+                <TextBlock>создание структуры проекта и заполнение базовой информации о проекте.</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Оборудование, технические и программные средства:"></TextBlock>
+                <TextBlock>персональный компьютер, программа Visual Studio.</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Продолжительность занятия:"></TextBlock>
+                <TextBlock>2 часа.</TextBlock>
+            </StackPanel>
+            <TextBlock FontWeight="Bold" Margin="35,0,0,0">Задание:</TextBlock>
+            <ListBox>
+                <ListViewItem Margin="50,5,0,0">1. Создание нового проекта любым способом</ListViewItem>
+                <ListViewItem Margin="50,5,0,0">2. Заполнение сведений о проекте</ListViewItem>
+                <ListViewItem Margin="50,5,0,0">3. Включение в проект дополнительной документации</ListViewItem>
+            </ListBox>
+            <TextBlock FontWeight="Bold" Margin="35,10,0,0">Выполнение работы:</TextBlock>
+            <TextBlock Text="      1. Открыть Visual Studio" FontSize="20"></TextBlock>
+            <TextBlock Text="      2. Открыть диалоговое окно 'Создание проекта'" FontSize="20"></TextBlock>
+            <Image Source="/Diplom;component/Resources/Lab1_1.png" Height="405" Width="591"></Image>
+            <TextBlock Text="       Если среда разработки Visual Studio уже открыта, проект можно создать, выбрав Файл > Создать > Проект в строке меню. А также нажав кнопку Создать проект на панели инструментов, или нажав комбинацию клавиш CTRL+SHIFT+N."></TextBlock>
+            <TextBlock Text="      3. Выбрать тип шаблона" FontSize="20"></TextBlock>
+            <TextBlock Text="       В левой части диалогового окна Создание проекта отображается список недавно выбранных шаблонов. Они отсортированы по времени использования."></TextBlock>
+            <Image Source="/Diplom;component/Resources/Lab1_2.png" Height="216" Width="632"></Image>
+            <TextBlock Margin="10,5">Выберите шаблон и нажмите кнопку Далее.</TextBlock>
+            <TextBlock Text="      4. Настроить новый проект" FontSize="20"></TextBlock>
+            <TextBlock Text="       В диалоговом окне Настройка нового проекта доступны параметры, позволяющие присвоить имя проекту (и решению), выбрать расположение на диске, а также версию платформы (если применимо для выбранного шаблона)."></TextBlock>
+            <Image Source="/Diplom;component/Resources/Lab1_3.png" Height="474" Width="719"></Image>
+            <TextBlock Margin="10,5" Text="Щелкните Создать, чтобы создать проект."></TextBlock>
+            <TextBlock Margin="35,20,0,0" FontWeight="Bold">Требования к отчету:</TextBlock>
+            <TextBlock Text="              Отчёт должен быть оформлен в Microsoft Office Word, распечатан и предоставлен на проверку. Текст должен быть написан шрифтом Times New Roman, 12. Интервал между строками и абзацами – 1,5. Отступ слева 1,5. Ориентация текста – по ширине страницы. Скриншоты необходимо подписать. Название практической работы, цель работы, ход работы, вывод, ответы на контрольные вопросы, должны быть выделены жирным шрифтом."></TextBlock>
+            <TextBlock Margin="35,5,0,0" FontWeight="Bold">Контрольные вопросы:</TextBlock>
+            <ListBox>
+                <ListBoxItem Margin="50,5,0,0">1. Зачем необходимы шаблоны проектов?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">2. В чем разница между планированием проекта от даты начала или даты его окончания?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">3. Какие существуют базовые шаблоны в программе Visual Studio (3-4 примера)?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,40">4. Как включить в проект проектную документацию?</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

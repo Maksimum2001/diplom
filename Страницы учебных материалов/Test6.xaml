@@ -1,0 +1,45 @@
+﻿<Page x:Class="Diplom.Страницы_учебных_материалов.Test6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
+      mc:Ignorable="d" 
+      MaxHeight="1000" MinWidth="900" MinHeight="700"
+      Title="Test6">
+
+    <StackPanel Background="CornflowerBlue">
+        <TextBlock>Что называется отладкой?</TextBlock>
+        <StackPanel>
+            <RadioButton Name="trusty1">деятельность, направленная на обнаружение и исправление ошибок в ПО</RadioButton>
+            <RadioButton>процесс создания исполняемой программы с помощью кода</RadioButton>
+            <RadioButton>это набор инструкций или правил, предназначенных для решения определенной проблемы</RadioButton>
+        </StackPanel>
+        <TextBlock>Тестирование программного средства это?</TextBlock>
+        <StackPanel>
+            <RadioButton>модель, определяемая программистами, которые вращаются вокруг объектов и данных</RadioButton>
+            <RadioButton Name="trusty2">процесс выполнения его программ на некотором наборе данных</RadioButton>
+            <RadioButton>последовательность инструкций, которые повторяют один и тот же процесс снова и снова</RadioButton>
+        </StackPanel>
+        <TextBlock>Какой метод отладки наиболее эффективный?</TextBlock>
+        <StackPanel>
+            <RadioButton>метод ручного тестирования</RadioButton>
+            <RadioButton Name="trusty3">групповой метод отыскания ошибок</RadioButton>
+            <RadioButton>пошаговый метод</RadioButton>
+        </StackPanel>
+        <TextBlock>Сколько заповедей отладки существует?</TextBlock>
+        <StackPanel>
+            <RadioButton>3</RadioButton>
+            <RadioButton Name="trusty4">6</RadioButton>
+            <RadioButton>8</RadioButton>
+        </StackPanel>
+        <TextBlock>Инструмент статического анализа кода.</TextBlock>
+        <StackPanel>
+            <RadioButton Name="trusty5">Klocwork</RadioButton>
+            <RadioButton>Valgrind</RadioButton>
+            <RadioButton>Wireshark</RadioButton>
+        </StackPanel>
+        <Button Name="Tester6" Background="Transparent" Width="Auto" Height="Auto" HorizontalAlignment="Center" Click="Tester6_Click">Получить результат</Button>
+        <TextBlock Margin="0,0,10,20" FontSize="25" x:Name="result6" HorizontalAlignment="Right" Text="Оценка:" VerticalAlignment="Top" Width="130"/>
+    </StackPanel>
+</Page>

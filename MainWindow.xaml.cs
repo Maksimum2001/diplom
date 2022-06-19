@@ -21,38 +21,41 @@ namespace Diplom
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// Отображение необходимой страницы на главном окне
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new Str());
+            MainFrame.Navigate(new Str()); // Отображение страницы Str на главном окне приложения при запуске
             Help.MainFrame = MainFrame;
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Help.MainFrame.Navigate(new Str());
         }
 
         private void Image_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            this.Close();
+            this.Close(); //Функционал для кнопки закрытия приложения
         }
 
         private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
         {
-            this.WindowState = WindowState.Maximized;
+            this.WindowState = WindowState.Maximized; // Функционал для кнопки развёртывания приложения на весь экран
         }
 
         private void Image_MouseDown_2(object sender, MouseButtonEventArgs e)
         {
-            this.WindowState = WindowState.Minimized;
+            this.WindowState = WindowState.Minimized; // Функционал для кнопки сворачивания приложения
         }
 
         private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            if(e.ChangedButton == MouseButton.Left)
+            if (e.LeftButton == MouseButtonState.Pressed)
             {
-                this.DragMove();
+                if (this.WindowState == WindowState.Maximized) // В случае максимального состояния окна окно вернется в нормальное состояние и продолжит движение вслед за курсором
+                {
+                    this.WindowState = WindowState.Normal;
+                    Application.Current.MainWindow.Top = 3; // Щёлкнуть в любом месте, кроме страниц где вы хотите установить местоположение окна для возврата из максимального состояния
+                }
+                this.DragMove(); //Перетаскивание приложения по экрану
             }
         }
     }

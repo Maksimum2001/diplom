@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Diplom.Страницы_лабораторных_работ;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,7 +25,11 @@ namespace Diplom.Страницы_учебных_материалов
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// переходы по клику к определённым страницам с помощью Frame и метода Navigate
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Tema1_Click(object sender, RoutedEventArgs e)
         {
             Help.MainFrame.Navigate(new Str1());
@@ -73,6 +78,101 @@ namespace Diplom.Страницы_учебных_материалов
         private void Tests5_Click(object sender, RoutedEventArgs e)
         {
             Help.MainFrame.Navigate(new Test5());
+        }
+
+        private void Tema6_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Str6());
+        }
+
+        private void Tests6_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Test6());
+        }
+
+        private void Tema7_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Str7());
+        }
+
+        private void Tests7_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Test7());
+        }
+
+        private void Tema8_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Str8());
+        }
+
+        private void Tests8_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Test8());
+        }
+
+        private void Tema9_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Str9());
+        }
+
+        private void Tests9_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Test9());
+        }
+
+        private void Tema10_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Str10());
+        }
+
+        private void Tests10_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Test10());
+        }
+
+        private void Lab1_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Lab1());
+        }
+
+        private void Lab2_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Lab2());
+        }
+
+        private void Lab3_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Lab3());
+        }
+
+        private void Lab4_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Lab4());
+        }
+
+        private void Lab5_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Lab5());
+        }
+
+        private void Lab6_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Lab6());
+        }
+
+        private void Lab7_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Lab7());
+        }
+
+        private void Lab8_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new Lab8());
+        }
+
+        private void CP1_Click(object sender, RoutedEventArgs e)
+        {
+            Help.MainFrame.Navigate(new CP_1());
         }
     }
 }

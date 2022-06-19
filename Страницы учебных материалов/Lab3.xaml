@@ -1,0 +1,44 @@
+﻿<Page x:Class="Diplom.Страницы_лабораторных_работ.Lab3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_лабораторных_работ"
+      mc:Ignorable="d" 
+      d:DesignHeight="3000" d:DesignWidth="1000" MaxHeight="3000" MinWidth="900" MinHeight="700"
+      Title="Lab2">
+
+    <ScrollViewer>
+        <StackPanel Background="Peru">
+            <Label>Лабораторная работа № 3. Разработка и интеграция модулей проекта</Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Цель занятия:"></TextBlock>
+                <TextBlock>закрепление практических навыки работы с системой Visual Studio 2019, MS SQL Server, проведение интеграции программных модулей.</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Оборудование, технические и программные средства:"></TextBlock>
+                <TextBlock>персональный компьютер, среда программирования Visual Studio 2019, MS SQl Server.</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Продолжительность занятия:"></TextBlock>
+                <TextBlock>2 часа.</TextBlock>
+            </StackPanel>
+            <TextBlock FontWeight="Bold" Margin="35,0,0,0">Задание:</TextBlock>
+
+            <TextBlock Text="            1.	Разработать базу данных, включающую в себя таблицу Пользователи, используя среду MS SQl Server."></TextBlock>
+            <TextBlock Text="            2.	Создать приложение с окном авторизации пользователя."></TextBlock>
+            <TextBlock Text="            3.	Создать модель данных на основе разработанной ранее базы данных."></TextBlock>
+            <TextBlock Text="            4.	Сохранить данные пользователя в созданной базе данных."></TextBlock>
+            <TextBlock Text="            5.	Создать отчет о проделанной работе."></TextBlock>
+            <TextBlock Margin="35,20,0,0" FontWeight="Bold">Требования к отчету:</TextBlock>
+            <TextBlock Text="              Отчёт должен быть оформлен в Microsoft Office Word, распечатан и предоставлен на проверку. Текст должен быть написан шрифтом Times New Roman, 12. Интервал между строками и абзацами – 1,5. Отступ слева 1,5. Ориентация текста – по ширине страницы. Скриншоты необходимо подписать. Название практической работы, цель работы, ход работы, вывод, ответы на контрольные вопросы, должны быть выделены жирным шрифтом."></TextBlock>
+            <TextBlock Margin="35,5,0,0" FontWeight="Bold">Контрольные вопросы:</TextBlock>
+            <ListBox>
+                <ListBoxItem Margin="50,5,0,0">1. Что такое интеграция?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">2. Как реализовывается создание базы данных?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">3. Что такое модель данных?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,40">4. Как передаются данные в MSSQL Server?</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

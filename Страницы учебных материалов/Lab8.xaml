@@ -1,0 +1,45 @@
+﻿<Page x:Class="Diplom.Страницы_лабораторных_работ.Lab8"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_лабораторных_работ"
+      mc:Ignorable="d" 
+      d:DesignHeight="3000" d:DesignWidth="1000" MaxHeight="3000" MinWidth="900" MinHeight="700"
+      Title="Lab8">
+
+    <ScrollViewer>
+        <StackPanel Background="Peru">
+            <Label>Лабораторная работа №8. Выполнение функционального тестирования</Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Цель занятия:"></TextBlock>
+                <TextBlock>описать набор тестовых сценариев для верификации ПО.</TextBlock>
+            </StackPanel>
+            <TextBlock Text="Оптимизировать тестовый набор. Научиться составлять спецификацию для разработки тестов."></TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Оборудование, технические и программные средства:"></TextBlock>
+                <TextBlock>персональный компьютер, среда программирования Visual Studio 2019.</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontWeight="Bold" Text="       Продолжительность занятия:"></TextBlock>
+                <TextBlock>2 часа.</TextBlock>
+            </StackPanel>
+            <TextBlock FontWeight="Bold" Margin="35,0,0,0">Задание:</TextBlock>
+            <TextBlock Text="           1. Ознакомиться с лекционным материалом по теме «Тестирование, отладка и ПО»"></TextBlock>
+            <TextBlock Text="           2. Провести функциональное тестирование разработанного программного обеспечения"></TextBlock>
+            <TextBlock FontWeight="Bold" Text="       Выполнение работы:"></TextBlock>
+            <TextBlock Text="           1. Разработать тестовые наборы для функционального тестирования."></TextBlock>
+            <TextBlock Text="           2. Провести тестирование программы и представить результаты в виде таблицы."></TextBlock>
+            <TextBlock Text="           3. Выработать рекомендации для корректировки тестируемой программы."></TextBlock>
+            <TextBlock Text="           4. Представить отчет по лабораторной работе для защиты."></TextBlock>
+            <TextBlock Margin="35,5,0,0" FontWeight="Bold">Контрольные вопросы:</TextBlock>
+            <ListBox>
+                <ListBoxItem Margin="50,5,0,0">1. Чем тестирование отличается от отладки ПС?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">2. Для чего проводится функциональное тестирование?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">3. Каковы правила тестирования программы «как черного ящика»?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,0">4. Как проводится тестирования программы по принципу «белого ящика»?</ListBoxItem>
+                <ListBoxItem Margin="50,5,0,40">5. Как осуществляется сборка программы при модульно тестировании?</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

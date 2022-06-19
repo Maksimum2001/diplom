@@ -1,0 +1,45 @@
+﻿<Page x:Class="Diplom.Страницы_учебных_материалов.Test7"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Страницы_учебных_материалов"
+      mc:Ignorable="d" 
+      MaxHeight="1000" MinWidth="900" MinHeight="700"
+      Title="Test7">
+
+    <StackPanel Background="CornflowerBlue">
+        <TextBlock>В чём заключается ручное тестирование?</TextBlock>
+        <StackPanel>
+            <RadioButton>в выполнении тестового сценария</RadioButton>
+            <RadioButton Name="trusty1">оба варианта являются правильными</RadioButton>
+            <RadioButton>в экспертном анализе участков программного кода системы</RadioButton>
+        </StackPanel>
+        <TextBlock>Что содержит форма для ручного тестирования?</TextBlock>
+        <StackPanel>
+            <RadioButton>структуру продукта, генеральный сводный план проекта</RadioButton>
+            <RadioButton>библиотеку функций, библиотеку объектов</RadioButton>
+            <RadioButton Name="trusty2">результат тестирования; имя лица, проводившего ручное тестирование</RadioButton>
+        </StackPanel>
+        <TextBlock>При автоматизированном тестировании используются...</TextBlock>
+        <StackPanel>
+            <RadioButton>список значений параметров, которые подаются на вход, и список результатов</RadioButton>
+            <RadioButton>ссылки на участки программного кода</RadioButton>
+            <RadioButton Name="trusty3">программные средства для выполнения тестов и проверки результатов выполнения</RadioButton>
+        </StackPanel>
+        <TextBlock>Библиотека объектов включает в себя</TextBlock>
+        <StackPanel>
+            <RadioButton Name="trusty4">описание всех графических объектов программной системы</RadioButton>
+            <RadioButton>набор скриптов, выполняющих задачи автоматического тестирования программной системы</RadioButton>
+            <RadioButton>набор пользовательских функций, используемых скриптами</RadioButton>
+        </StackPanel>
+        <TextBlock>Какая основная особенность автоматизированного тестирования?</TextBlock>
+        <StackPanel>
+            <RadioButton>низкая стоимость внедрения</RadioButton>
+            <RadioButton>возможность доступа к данным при сбое работы сервера</RadioButton>
+            <RadioButton Name="trusty5">возможность быстрого проведения регрессионных тестов</RadioButton>
+        </StackPanel>
+        <Button Name="Tester7" Background="Transparent" Width="Auto" Height="Auto" HorizontalAlignment="Center" Click="Tester7_Click">Получить результат</Button>
+        <TextBlock Margin="0,0,10,20" FontSize="25" x:Name="result7" HorizontalAlignment="Right" Text="Оценка:" VerticalAlignment="Top" Width="130"/>
+    </StackPanel>
+</Page>
